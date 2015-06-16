@@ -1,0 +1,9 @@
+digraph foo {
+  rankdir=LR;
+  foo -> bar;
+  bar -> {
+    example1
+    example2
+    example3
+  } -> foo;
+}
